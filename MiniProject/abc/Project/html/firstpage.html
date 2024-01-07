@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <!--<link rel="stylesheet" href="../css/firstpage.css">-->
+    <style>
+        .topnav
+        {
+            text-decoration-color: rgb(241, 239, 236);
+            text-align: right;
+            list-style-type: none;
+            float: right;
+
+        }
+        ul li{
+            display: inline-block;
+        }
+        ul li a{
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 20px;
+            border: 1px solid transparent;
+            transition: 0.6s ease;
+        }
+        ul li a:hover{
+            background-color: #fff;
+            color: #000;
+        }
+        ul li .active a{
+            background-color: #fff;
+            color: #000000;
+        }
+        .logo img{
+            float: left;
+            width: 70px;
+            height: 50%;
+        }
+        .Title{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+        .Title h1{
+            color: #fff;
+            font-size: 65px;
+        }
+        .Title h4{
+            color: #0e010f86;
+            font-family:'Courier New', Courier, monospace;
+            text-align: center;
+        }
+    </style>
+</head>
+<body background="../Image/Airplane.jpg">
+    <header>
+        <div class="topnav">
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            
+        </div>
+        <div class="logo">
+            <img src="../Image/P.png" alt="logo">
+        </div>
+        <div class="Title">
+            <h1>Plan For Vacation</h1>
+            <h4>Fix Your Booking With Us</h4>
+        </div>
+       </header>
+</body>
+</html>
